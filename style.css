@@ -367,7 +367,17 @@ button{
 
 /* ------------------- RESPONSIVE ------------------- */
 
+
+
 @media (max-width: 1070px) {
+    .icons{
+        all: unset;
+        width: 11%;
+    }
+    .contact{
+        justify-content: center;
+        margin-left: 28%;
+    }
     .work{
         background-color: #0d0d0d;
         display: none;
@@ -409,9 +419,53 @@ button{
         justify-content: center;
         margin-left: 15%;
     }
+    .workA{
+        background-color: #0d0d0d;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 0 10% 0 10%;
+        color: #7575A3;
+        height: 100vh;
+
+    }
 }
 
 @media (max-width: 730px) {
+    .icons{
+        all: unset;
+        width: 15%;
+    }
+    .contact{
+        justify-content: center;
+        margin-left: 20%;
+    }
+    .boxA{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    p, pre{
+        color: #d9d9d9;
+        margin: 0 0 10px 0;
+        font-size: 17px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .workA{
+        background-color: #0d0d0d;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 0 10% 0 10%;
+        color: #7575A3;
+        height: 100vh;
+    }
     .work{
         height: 50vh;
     }
@@ -429,6 +483,36 @@ button{
     }
 }
 @media (max-width: 560px) {
+    .contact{
+        justify-content: center;
+        margin-left: 18%;
+    }
+    .contact-form input, textarea{
+        margin: 5px 0 20px 0;
+        padding: 10px 5px 10px 20px;
+        width: 25rem;
+        background: #0d0d0d;
+        border: 3px solid #33334D;
+        color: #d9d9d9;
+    }
+    .workA{
+        background-color: #0d0d0d;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 0 10% 0 0;
+        color: #7575A3;
+        height: 90vh;
+    }
+    p{
+        margin: 0 0 10px 50px;
+    }
+    .icons{
+        all: unset;
+        width: 18%;
+    }
     .box h3{
         position: absolute;
         margin-top: -20%;
@@ -448,6 +532,32 @@ button{
 
 }
 @media (max-width: 460px) {
+    .contact{
+        justify-content: center;
+        margin-left: 12%;
+    }
+    .contact-form input, textarea{
+        margin: 5px 0 20px 0;
+        padding: 10px 5px 10px 20px;
+        width: 23rem;
+        background: #0d0d0d;
+        border: 3px solid #33334D;
+        color: #d9d9d9;
+    }
+    .workA{
+        background-color: #0d0d0d;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 0 5% 0 0;
+        color: #7575A3;
+        height: 90vh;
+    }
+    p, pre{
+        font-size: 16px;
+    }
     .work{
         height: 45vh;
     }
@@ -465,6 +575,18 @@ button{
     }
 }
 @media (max-width: 360px) {
+    .contact{
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .contact-form input, textarea{
+        margin: 5px 0 20px 0;
+        padding: 10px 5px 10px 20px;
+        width: 18rem;
+        background: #0d0d0d;
+        border: 3px solid #33334D;
+        color: #d9d9d9;
+    }
     .work img{
         width: 100%;
         align-self: center;
