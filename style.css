@@ -579,6 +579,9 @@ button{
         justify-content: center;
         margin-left: 10%;
     }
+    .work{
+        height: 50vh;
+    }
     .contact-form input, textarea{
         margin: 5px 0 20px 0;
         padding: 10px 5px 10px 20px;
