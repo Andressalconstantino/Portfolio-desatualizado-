@@ -6,7 +6,7 @@
 <br><br>
 https://andressalconstantino.github.io/Portfolio/
 <br><br>
- &#8287;&#8287;&#8287;&#8287;&#8287; <img src="https://img.icons8.com/ultraviolet/80/000000/html--v1.png" width="70"/> &#8287;&#8287;&#8287;&#8287;&#8287; <img src="https://img.icons8.com/ultraviolet/80/000000/css.png" width="70"/>  &#8287;&#8287;&#8287;&#8287;&#8287; <img src="https://img.icons8.com/ultraviolet/80/000000/js.png" width="70"/> &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287; <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/000000/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png" width="55"/>
+ &#8287;&#8287;&#8287;&#8287;&#8287; <img src="https://img.icons8.com/ultraviolet/80/000000/html--v1.png" width="70"/> &#8287;&#8287;&#8287;&#8287;&#8287; <img src="https://img.icons8.com/ultraviolet/80/000000/css.png" width="70"/>  &#8287;&#8287;&#8287;&#8287;&#8287; <img src="https://img.icons8.com/ultraviolet/80/000000/js.png" width="70"/> &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287; <img src="https://icon-library.com/images/jquery-icon-png/jquery-icon-png-7.jpg" width="50"/> 
 <br>
 <br>
 
