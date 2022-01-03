@@ -8,16 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0;">
 </head>
 <body>
-<div class="contact-form" id="contactMe" action="mailto:andressaconstantinooficiall@gmail.com" enctype="text/plain">
+<div class="contact-form" id="contactMe" >
     <span id="h1-contact">Contact me</span>
-    <form>
+    <form action="https://formsubmit.co/andressaconstantinooficiall@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://andressalconstantino.github.io/Portfolio/ThankYou.html">
         <label for="email">Your email:</label>
-        <input id="email" name="email" type="email">
-        <label for="email">Subject:</label>
-        <input id="subject" name="subject" type="text">
+        <input id="email" name="email" type="email" required>
+        <label for="_subject">Subject:</label>
+        <input id="_subject" name="subject" type="text" required>
         <label for="email">Message:</label>
-        <textarea id="message" name="message" type="text"></textarea>
-        <button id="send-email">Send</button>
+        <textarea id="message" name="message" type="text" required></textarea>
+        <button type="submit" id="send-email">Send</button>
     </form>
     <button class="arrow-down" id="contactDown"><img src="media/down-arrow.png"></button>
 </div>
