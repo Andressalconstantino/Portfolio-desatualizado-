@@ -115,6 +115,18 @@ body{
     height: 100vh;
 
 }
+.workB{
+    background-color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0 30% 0 30%;
+    color: #7575A3;
+    height: 100vh;
+
+}
 /* ---------------- ELEMENT ----------------- */
 
 .contact-form form{
