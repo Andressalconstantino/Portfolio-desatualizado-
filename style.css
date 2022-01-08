@@ -382,6 +382,14 @@ button{
 
 
 @media (max-width: 1070px) {
+    .workB{
+        height: 50vh;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
     .icons{
         all: unset;
         width: 11%;
@@ -446,6 +454,15 @@ button{
 }
 
 @media (max-width: 730px) {
+    .workB{
+        height: 40vh;
+        max-width: 90vh;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
     .icons{
         all: unset;
         width: 15%;
@@ -495,6 +512,15 @@ button{
     }
 }
 @media (max-width: 560px) {
+    .workB{
+        height: 30vh;
+        max-width: 70vh;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
     .contact{
         justify-content: center;
         margin-left: 18%;
@@ -544,6 +570,18 @@ button{
 
 }
 @media (max-width: 460px) {
+    .workB{
+        height: 60vh;
+        max-width: 56vh;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .workB button{
+        width: 170px;
+    }
     .contact{
         justify-content: center;
         margin-left: 12%;
