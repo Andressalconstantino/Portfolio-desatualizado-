@@ -129,6 +129,70 @@ body{
 }
 /* ---------------- ELEMENT ----------------- */
 
+#ghosts{
+    display: flex;
+    justify-content: center;
+}
+
+
+#ghosts img{
+    width: 20%;
+    display: inline;
+    padding: 60px 0;
+}
+
+#ghost1{
+    animation: ghost1 2s infinite;
+}
+@keyframes ghost1 {
+    0%{
+        padding-top: 25px;
+        padding-bottom: 85px;
+    }
+    50%{
+        padding-top: 85px;
+        padding-bottom: 25px;
+    }
+    100%{
+        padding-top: 25px;
+        padding-bottom: 85px;
+    }
+}
+#ghost2{
+    animation: ghost2 2s infinite;
+}
+@keyframes ghost2 {
+    0%{
+        padding-top: 85px;
+        padding-bottom: 25px;
+    }
+    50%{
+        padding-top: 25px;
+        padding-bottom: 85px;
+    }
+    100%{
+        padding-top: 85px;
+        padding-bottom: 25px;
+    }
+}
+#ghost3{
+    animation: ghost3 2s infinite;
+}
+@keyframes ghost3 {
+    0%{
+        padding-top: 25px;
+        padding-bottom: 85px;
+    }
+    50%{
+        padding-top: 85px;
+        padding-bottom: 25px;
+    }
+    100%{
+        padding-top: 25px;
+        padding-bottom: 85px;
+    }
+}
+
 .contact-form form{
     display: flex;
     flex-direction: column;
@@ -382,6 +446,19 @@ button{
 
 
 @media (max-width: 1070px) {
+    #ghosts{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: -100px;
+    }
+
+
+    #ghosts img{
+        width: 10%;
+        display: inline;
+        padding: 60px 0;
+    }
     .workB{
         height: 50vh;
         padding: 0;
@@ -454,6 +531,19 @@ button{
 }
 
 @media (max-width: 730px) {
+    #ghosts{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: -50px;
+    }
+
+
+    #ghosts img{
+        width: 15%;
+        display: inline;
+        padding: 60px 0;
+    }
     .workB{
         height: 40vh;
         max-width: 90vh;
@@ -512,6 +602,19 @@ button{
     }
 }
 @media (max-width: 560px) {
+    #ghosts{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-bottom: -50px;
+    }
+
+
+    #ghosts img{
+        width: 17%;
+        display: inline;
+        padding: 60px 0;
+    }
     .workB{
         height: 30vh;
         max-width: 70vh;
@@ -569,7 +672,21 @@ button{
     }
 
 }
+
 @media (max-width: 460px) {
+    #ghosts{
+        display: flex;
+        justify-content: center;
+        margin-top: 1px;
+        margin-bottom: -50px;
+    }
+
+
+    #ghosts img{
+        width: 20%;
+        display: inline;
+        padding: 60px 0;
+    }
     .workB{
         height: 60vh;
         max-width: 56vh;
@@ -625,6 +742,19 @@ button{
     }
 }
 @media (max-width: 360px) {
+    #ghosts{
+        display: flex;
+        justify-content: center;
+        margin-top: 1px;
+        margin-bottom: -30px;
+    }
+
+
+    #ghosts img{
+        width: 25%;
+        display: inline;
+        padding: 60px 0;
+    }
     .contact{
         justify-content: center;
         margin-left: 10%;
