@@ -232,6 +232,9 @@ textarea{
 .box img{
     border: 2px solid rgba(31, 31, 53, 0.49);
 }
+.box img:hover{
+    border: 2px solid rgba(51, 0, 128, 0.5);
+}
 .boxA h3{
     position: absolute;
     font-size: 35px;
