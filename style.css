@@ -46,7 +46,7 @@ body {
     background: linear-gradient(-80deg, #2d2d86, #7575a3, #52527a, #33334d);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -119,7 +119,7 @@ body {
 }
 
 .work {
-    display: flex;
+    display: none;
     flex-direction: column;
     height: 100vh;
 }
